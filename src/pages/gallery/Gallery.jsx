@@ -9,7 +9,7 @@ const Gallery = () => {
 
     for (let index = 1; index <= galleryLength; index++) {
         images.push(require(`../../images/gallery${index}.jpg`));
-        
+        console.log(images);``
     }
 
     return (

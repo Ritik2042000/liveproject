@@ -5,7 +5,6 @@ import Contact from './pages/contact/Contact';
 import Gallery from './pages/gallery/Gallery';
 import NotFound from './pages/notFound/NotFound';
 import About from './pages/about/About';
-import Trainer from './pages/trainers/Trainers';
 import Plans from './pages/plans/Plans';
 import NavBar from './component/NavBar';
 import Footer from './component/Footer';
