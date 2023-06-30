@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Card from '../UI/Card'
 const Trainer = ({ image, name, socials, job }) => {
+
+
+
+    
     return (
         <Card className='trainer'>
             <div className="trainer__image">

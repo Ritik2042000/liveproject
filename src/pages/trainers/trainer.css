@@ -53,14 +53,17 @@
 }
 /*-------- MEDIA QUEARY (small screens) ----------- */
 @media (max-width:600px) {
-    .plans__container{
-        grid-template-columns:  1fr;
+    .trainers__container{
+        grid-template-columns:1fr;
         gap: 2rem;
     }
 
     .card.card.trainer{
         width: 90%;
         margin-inline: auto;
+    }
+    .card.trainer {
+        padding: 0rem;
     }
 
 }

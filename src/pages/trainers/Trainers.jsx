@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../../component/Header'
 import HeaderImage from '../../images/header_bg_5.jpg'
 import { trainers } from '../../data'
@@ -10,6 +10,10 @@ import Trainer from '../../component/Trainer';
 import './trainer.css';
 
 const Trainers = () => {
+ 
+    useEffect (()=> {
+        window.scrollTo({top:0,behavior:"auto"})
+    })
     return (
         <>
             <Header title='Our Trainers' image={HeaderImage}> Id quisquam alias consectetur libero quia impedit dignissimos, odio in aperiam iusto inventore aut natus reiciendis aliquid doloribus rem aliquam? Cum, itaque?</Header>

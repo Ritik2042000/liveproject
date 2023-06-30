@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../../component/Header';
 import HeaderImage from '../../images/header_bg_3.jpg';
 import  './gallery.css';
 
 const Gallery = () => {
+    
+    useEffect (()=> {
+        window.scrollTo({top:0,behavior:"auto"})
+    })
+    
+    
     const galleryLength = 15;
     const images = []
 
     for (let index = 1; index <= galleryLength; index++) {
         images.push(require(`../../images/gallery${index}.jpg`));
-        console.log(images);``
+        // console.log(images);``
     }
 
     return (

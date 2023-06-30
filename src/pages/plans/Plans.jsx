@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import  './../plans/plans.css';
 import { plans } from '../../data';
 import Header from '../../component/Header';
@@ -6,6 +6,12 @@ import HeaderImage from '../../images/header_bg_4.jpg';
 import Card from '../../UI/Card';
 
 const Plans = () => {
+   
+    useEffect (()=> {
+        window.scrollTo({top:0,behavior:"auto"})
+    })
+   
+   
     return (
         <>
           <Header title='Membership plans' image={HeaderImage}>
